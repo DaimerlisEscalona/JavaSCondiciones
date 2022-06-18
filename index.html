@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>JavaSCondiciones</title>
+</head>
+<body>
+    <div class="cont-general" id="inicio">
+        <div class="cont-nav" >
+            <div class="nav" id="menu">
+                <ul >
+                    <li class="form-lista" id="primeraParte"> <a href="#inicio"> Inicio</a></li>
+                    <li class="form-lista" id="primeraParte"> <a href="#listaContUno"> Desafío Parte 1</a></li>
+                    <li class="form-lista" id="segundaParte"> <a href="#listaContDos"> Desafío Parte 2</a></li>
+                    <li class="form-lista" id="terceraParte"> <a href="#listaContTres"> Desafío Parte 3</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="cont-parte-uno" id="listaContUno">
+            <img class="border-none-img" id="bImagen" src="assets/img/desafiolatam.jpg" alt="">
+            <button class="form-but-img" id="clickBorder">Cambiar Borde</button>
+        </div>
+        <div class="cont-parte-dos" id="listaContDos">
+            <label for="text" id="labCantidadStic"></label>
+            <div class="cont-stic">
+                <div class="cont-github">
+                    <img class="form-img" src="assets/img/github.jpg" alt="">
+                    <input type="number" class="form-inp" id="cantidadGitH" placeholder="Cantidad">
+                </div>
+                <div class="cont-slack">
+                    <img class="form-img" src="assets/img/slack.jpg" alt="">
+                    <input type="number" class="form-inp" id="cantidadSlack" placeholder="Cantidad">
+                </div>
+                <div class="cont-git">
+                    <img class="form-img" src="assets/img/git.png" alt="">
+                    <input type="number" class="form-inp" id="cantidadGit" placeholder="Cantidad">
+                </div>
+            </div>
+            <label for="text" id="labMaxCantidadStic"></label>
+            <button class="form-but" id="verificar" >Verificar Total</button>
+        </div>
+        <div class="cont-parte-tres" id="listaContTres">
+            <h3>Ingresa el Password</h3>
+            <div class="cont-select">
+                <select class="form-select" id="opcionUno">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select class="form-select" id="opcionDos">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select class="form-select" id="opcionTres">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <button class="form-but-select" id="ingresar">Ingresar</button>
+            <label for="text" id="labPasw"></label>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
